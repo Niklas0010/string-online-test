@@ -1,0 +1,38 @@
+.nav_container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  img {
+    width: 100%;
+  }
+
+  .nav_ul {
+    position: relative;
+    right: 90%;
+    top: 29.5%;
+    width: 100%;
+    height: fit-content;
+    width: fit-content;
+
+    .login_btn {
+      background-color: rgb(16, 233, 132);
+    }
+
+    li {
+      display: inline;
+      padding: 15px;
+      // margin: 10px;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+    .form_container {
+     display: grid;
+  
+      .form_input {
+      }
+    }
+  }
+}
