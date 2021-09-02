@@ -1,9 +1,10 @@
 import React from 'react'
+import { ProductNav } from '../../Productnav/Productnav'
 
 export default function Frontpage() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <ProductNav />
+    </>
   )
 }
