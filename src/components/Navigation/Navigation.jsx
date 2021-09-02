@@ -15,9 +15,9 @@ export default function Navigation() {
           <li>
             <Link to="/">Salgs- og handelsbetingelser</Link>
           </li>
-          <li className={Style.login_btn}>
-            <Link to="/">Login</Link>
-          </li>
+          <button className={Style.login_btn}>
+            <Link>Login</Link>
+          </button>
         </ul>
         <form className={Style.form_container}>
           <input className={Style.form_input} type="text"></input>

@@ -8,14 +8,25 @@
 
   .nav_ul {
     position: relative;
-    right: 90%;
-    top: 29.5%;
-    width: 100%;
     height: fit-content;
     width: fit-content;
+    top: 25%;
+    right: 100%;
+    width: 100%;
+    font-family: "Titillium Web";
+    // font-size: 18px;
 
     .login_btn {
-      background-color: rgb(16, 233, 132);
+      background-color: #00F9B6;
+      border: none;
+      border-radius: 4px;
+      padding: 7px 30px;
+      margin-left: 20px;
+
+      a {
+        text-decoration: none;
+        color: #131313;
+      }
     }
 
     li {
