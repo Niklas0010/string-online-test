@@ -3,7 +3,7 @@ import {
   Switch,
 } from "react-router-dom";
 import Frontpage from '../pages/Frontpage/Frontpage'
-import {Login} from '../Login/Login'
+import { LoginPage } from "../pages/Login/Loginpage";
 
 
 export function Routes () {
@@ -18,8 +18,8 @@ export function Routes () {
                 <Sales/>
             </Route> */}
 
-            <Route exact path="/login">
-                <Login/>
+            <Route exact path="/loginpage">
+                <LoginPage/>
             </Route>
       </Switch>
   )

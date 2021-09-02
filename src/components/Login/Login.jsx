@@ -67,15 +67,17 @@ export function Login() {
     <>
     <form className={Style.loginform} onSubmit={handleSubmit(onSubmit)}>
     <h4>{loginData.username ? `Du er nu logget ind som ${loginData.username}` : message}</h4>
-        <input placeholder="Username" name="username" {...register("username", { required: true })}></input>
+    <h3>Indtast brugernavn og adgangskode for at logge på :</h3>
             {errors.username && <span>Udfyld username</span>}
+            <p>Brugernavn:</p>
+        <input name="username" {...register("username", { required: true })}></input>
 
-        <input placeholder="Password" name="password" type="password" {...register('password', { required: true })}></input>
             {errors.password && <span>Udfyld password</span>}
+            <p>Adgangskode:</p>
+        <input name="password" type="password" {...register('password', { required: true })}></input>
 
         {!loginData.username && 
         <button className={Style.loginbtn}>Login</button>}
-        <button className={Style.loginbtn}>Annuller</button>
         {loginData.username &&
         <button onClick={() => {logOut()}} className={Style.logoutbtn}>Log ud</button>
         }

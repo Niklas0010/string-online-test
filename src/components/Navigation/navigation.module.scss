@@ -12,11 +12,11 @@
     position: relative;
     height: fit-content;
     width: fit-content;
-    top: 25%;
-    right: 100%;
+    top: 21%;
+    right: 107%;
     width: 100%;
     font-family: "Titillium Web";
-    // font-size: 18px;
+    font-size: 18px;
 
     .login_btn {
       background-color: $interaction;
@@ -24,6 +24,7 @@
       border-radius: 4px;
       padding: 7px 30px;
       margin-left: 20px;
+      font-size: 18px;
 
       a {
         text-decoration: none;
@@ -45,6 +46,7 @@
      display: grid;
   
       .form_input {
+        
       }
     }
   }
