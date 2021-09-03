@@ -10,10 +10,10 @@ export default function Navigation() {
         <img src={Logo} alt="" />
         <ul className={Style.nav_ul}>
           <li>
-            <Link to="/Frontpage">Forside</Link>
+            <Link to="/">Forside</Link>
           </li>
           <li>
-            <Link to="/">Salgs- og handelsbetingelser</Link>
+            <Link to="/Salespage">Salgs- og handelsbetingelser</Link>
           </li>
           <button className={Style.login_btn}>
             <Link to="/Loginpage">Login</Link>
